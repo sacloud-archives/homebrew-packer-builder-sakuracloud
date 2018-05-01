@@ -16,7 +16,7 @@ class PackerBuilderSakuracloud < Formula
     bin.install "packer-builder-sakuracloud"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
 
     This plugin requires locate into "~/.packer.d/plugins" directory.
     To enable, execute following:
@@ -30,7 +30,7 @@ class PackerBuilderSakuracloud < Formula
 
   test do
     minimal = testpath/"minimal.tf"
-    minimal.write <<-EOS.undent
+    minimal.write <<~EOS
     {
       "builders": [{
           "type": "sakuracloud",
