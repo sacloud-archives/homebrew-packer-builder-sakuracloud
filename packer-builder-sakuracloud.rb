@@ -10,7 +10,7 @@ class PackerBuilderSakuracloud < Formula
   head "https://github.com/sacloud/packer-builder-sakuracloud.git"
   version _version
 
-  depends_on "packer" => :run
+  depends_on "packer"
 
   def install
     bin.install "packer-builder-sakuracloud"
