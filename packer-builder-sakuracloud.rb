@@ -1,7 +1,7 @@
 class PackerBuilderSakuracloud < Formula
 
-  _version = "0.1.4"
-  sha256_src = "0b535b5f3abb876796b0ad92555c200bc763eb275ec5a97b20458cc92f96d00f"
+  _version = "0.2.0"
+  sha256_src = "c21333bb21b039cb6006079adec18675a4947a8ae2a6fb5575032f63a6b63d27"
 
   desc "Packer builder plugin for SakuraCloud"
   homepage "https://github.com/sacloud/packer-builder-sakuracloud"
